@@ -1,6 +1,29 @@
-.App > div {
-  margin: 10rem;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  padding: 3rem;
+  z-index: 20;
+}
+
+.expand {
+  background-color: yellow;
   width: 100px;
-  height: 100px;
-  background-color: red;
+  position: absolute;
+  top: 100;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 40vh;
+  width: 100vw;
+  background-color: yellow;
+  z-index: -5;
 }
